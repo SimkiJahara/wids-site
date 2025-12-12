@@ -25,19 +25,15 @@ export default function Hero() {
         >
           {/* Logo */}
           <div className="mb-8 flex justify-center">
-            <div className="relative w-32 h-32 md:w-40 md:h-40">
-              <div className="absolute inset-0 bg-wids-gold/20 rounded-full blur-2xl animate-pulse"></div>
+            <div className="relative w-48 h-48 md:w-64 md:h-64">
+              <div className="absolute inset-0 bg-wids-gold/20 rounded-full blur-3xl animate-pulse"></div>
               <img 
                 src="/logos/widsBD.png" 
                 alt="WiDS Bangladesh Logo" 
-                className="relative w-full h-full object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+                className="relative w-full h-full object-contain drop-shadow-[0_0_25px_rgba(255,255,255,0.4)]"
               />
             </div>
           </div>
-
-          <span className="inline-block py-1 px-3 rounded-full bg-wids-teal/10 text-wids-teal text-sm font-semibold mb-6 border border-wids-teal/20 backdrop-blur-sm">
-            {hero.subtitle}
-          </span>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
             <span className="text-white">WiDS</span> <span className="text-gradient-gold">Bangladesh</span> <span className="text-white">2026</span>

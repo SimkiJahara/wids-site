@@ -73,19 +73,19 @@ export const siteData = {
         name: "Dr. Alice Chen",
         role: "General Chair",
         affiliation: "Global Tech University",
-        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=AC"
+        image: "https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?auto=format&fit=crop&w=800&q=80"
       },
       {
         name: "Dr. Maria Garcia",
         role: "Program Chair",
         affiliation: "Data Science Institute",
-        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=MG"
+        image: "https://images.unsplash.com/photo-1633265486064-086b219458ec?auto=format&fit=crop&w=800&q=80"
       },
       {
         name: "Dr. James Wilson",
         role: "Publicity Chair",
         affiliation: "WiDS Ambassador",
-        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=JW"
+        image: "https://images.unsplash.com/photo-1618172193763-c511deb635ca?auto=format&fit=crop&w=800&q=80"
       }
     ]
   },
@@ -125,7 +125,7 @@ export const siteData = {
         name: "Dr. Sumaiya Tabassum Nimi",
         role: "Keynote Speaker",
         org: "North South University",
-        image: "https://placehold.co/400x400/00B5E2/FFFFFF?text=STN",
+        image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
         bio: "Expert in Computational Biology and AI applications in Healthcare."
       },
       {
@@ -133,7 +133,7 @@ export const siteData = {
         name: "Dr. Elena Rodriguez",
         role: "AI Research Lead",
         org: "Tech Global Institute",
-        image: "https://placehold.co/400x400/FECB00/000000?text=ER",
+        image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
         bio: "Pioneering work in Natural Language Processing and Ethics."
       },
       {
@@ -141,7 +141,7 @@ export const siteData = {
         name: "Prof. Sarah Smith",
         role: "Data Science Chair",
         org: "University of Innovation",
-        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=SS",
+        image: "https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?auto=format&fit=crop&w=800&q=80",
         bio: "Leading research in Big Data Analytics and Visualization."
       },
       {
@@ -149,7 +149,7 @@ export const siteData = {
         name: "Dr. Yuki Tanaka",
         role: "Chief Data Officer",
         org: "Future Systems",
-        image: "https://placehold.co/400x400/00B5E2/FFFFFF?text=YT",
+        image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
         bio: "Transforming industries through predictive modeling."
       }
     ]
