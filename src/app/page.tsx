@@ -6,7 +6,6 @@ import CFP from '@/components/CFP';
 import Speakers from '@/components/Speakers';
 import Committee from '@/components/Committee';
 import Sponsors from '@/components/Sponsors';
-import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
 import { siteData } from '@/data/siteData';
 
@@ -43,8 +42,6 @@ export default function Home() {
 
       <Sponsors />
 
-      <Newsletter />
-      
       <Footer />
     </main>
   );

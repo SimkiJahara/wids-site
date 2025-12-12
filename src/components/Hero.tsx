@@ -23,18 +23,30 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          {/* Logo */}
+          <div className="mb-8 flex justify-center">
+            <div className="relative w-32 h-32 md:w-40 md:h-40">
+              <div className="absolute inset-0 bg-wids-gold/20 rounded-full blur-2xl animate-pulse"></div>
+              <img 
+                src="/logos/widsBD.png" 
+                alt="WiDS Bangladesh Logo" 
+                className="relative w-full h-full object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
+              />
+            </div>
+          </div>
+
           <span className="inline-block py-1 px-3 rounded-full bg-wids-teal/10 text-wids-teal text-sm font-semibold mb-6 border border-wids-teal/20 backdrop-blur-sm">
             {hero.subtitle}
           </span>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-            <span className="text-white">WiDS</span> <span className="text-gradient-gold">Bangladesh</span> <span className="text-white">2025</span>
+            <span className="text-white">WiDS</span> <span className="text-gradient-gold">Bangladesh</span> <span className="text-white">2026</span>
           </h1>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-lg text-slate-300 mb-10">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
               <Calendar className="w-5 h-5 text-wids-gold" />
-              <span>{hero.status}</span>
+              <span className="font-mono font-bold text-white tracking-wide">{hero.status}</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-wids-gold" />

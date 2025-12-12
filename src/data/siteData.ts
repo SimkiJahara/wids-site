@@ -32,12 +32,12 @@ export const siteData = {
   },
   timeline: {
     title: "Important Dates",
-    subtitle: "Mark your calendars",
+    subtitle: "Mark your calendars for 2026",
     events: [
-      { title: "Abstract Submission", date: "2025-02-15", status: "upcoming" },
-      { title: "Paper Notification", date: "2025-03-10", status: "upcoming" },
-      { title: "Camera Ready Deadline", date: "2025-03-25", status: "upcoming" },
-      { title: "Conference Date", date: "2025-04-10", status: "upcoming" },
+      { title: "Abstract Submission", date: "2026-01-15", status: "upcoming" },
+      { title: "Paper Notification", date: "2026-02-20", status: "upcoming" },
+      { title: "Camera Ready Deadline", date: "2026-03-10", status: "upcoming" },
+      { title: "Conference Date", date: "2026-04-12", status: "upcoming" },
     ]
   },
   infoGrid: {
@@ -70,22 +70,22 @@ export const siteData = {
     subtitle: "The team behind WiDS Bangladesh",
     members: [
       {
-        name: "Dr. Nova Ahmed",
+        name: "Dr. Alice Chen",
         role: "General Chair",
-        affiliation: "North South University",
-        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=NA"
+        affiliation: "Global Tech University",
+        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=AC"
       },
       {
-        name: "Dr. Lamia Iftekhar",
+        name: "Dr. Maria Garcia",
         role: "Program Chair",
-        affiliation: "North South University",
-        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=LI"
+        affiliation: "Data Science Institute",
+        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=MG"
       },
       {
-        name: "TBA",
+        name: "Dr. James Wilson",
         role: "Publicity Chair",
         affiliation: "WiDS Ambassador",
-        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=TBA"
+        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=JW"
       }
     ]
   },
@@ -96,10 +96,10 @@ export const siteData = {
     buttonText: "Notify Me"
   },
   hero: {
-    title: "WiDS Bangladesh 2025",
+    title: "WiDS Bangladesh 2026",
     subtitle: "Women in Data Science",
     location: "Dhaka, Bangladesh",
-    status: "Dates TBA",
+    status: "April 12-14, 2026",
     description: "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
     ctaPrimary: { label: "Register Interest", href: "#register" },
     ctaSecondary: { label: "Submit Paper", href: "#cfp" },
@@ -122,20 +122,35 @@ export const siteData = {
     list: [
       {
         id: 1,
-        name: "Dr. Keynote Speaker",
-        role: "Professor of Data Science",
-        org: "Stanford University",
-        image: "https://placehold.co/400x400/00B5E2/FFFFFF?text=Speaker+1",
-        bio: "Leading researcher in AI ethics and machine learning bias."
+        name: "Dr. Sumaiya Tabassum Nimi",
+        role: "Keynote Speaker",
+        org: "North South University",
+        image: "https://placehold.co/400x400/00B5E2/FFFFFF?text=STN",
+        bio: "Expert in Computational Biology and AI applications in Healthcare."
       },
-      // Add more speakers here easily
       {
         id: 2,
-        name: "TBA",
-        role: "Industry Leader",
-        org: "Tech Corp",
-        image: "https://placehold.co/400x400/FECB00/000000?text=TBA",
-        bio: "More details coming soon."
+        name: "Dr. Elena Rodriguez",
+        role: "AI Research Lead",
+        org: "Tech Global Institute",
+        image: "https://placehold.co/400x400/FECB00/000000?text=ER",
+        bio: "Pioneering work in Natural Language Processing and Ethics."
+      },
+      {
+        id: 3,
+        name: "Prof. Sarah Smith",
+        role: "Data Science Chair",
+        org: "University of Innovation",
+        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=SS",
+        bio: "Leading research in Big Data Analytics and Visualization."
+      },
+      {
+        id: 4,
+        name: "Dr. Yuki Tanaka",
+        role: "Chief Data Officer",
+        org: "Future Systems",
+        image: "https://placehold.co/400x400/00B5E2/FFFFFF?text=YT",
+        bio: "Transforming industries through predictive modeling."
       }
     ]
   },
