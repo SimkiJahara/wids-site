@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wids-gold: #FECB00;
+  --color-wids-teal: #00B5E2;
+  --color-wids-dark: #1A1A1A;
+  --color-wids-grey: #F3F4F6;
+  
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1A1A1A;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
