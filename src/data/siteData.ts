@@ -141,7 +141,7 @@ export const siteData = {
         name: "Prof. Sarah Smith",
         role: "Data Science Chair",
         org: "University of Innovation",
-        image: "https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?auto=format&fit=crop&w=800&q=80",
+        image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
         bio: "Leading research in Big Data Analytics and Visualization."
       },
       {
