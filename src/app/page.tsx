@@ -1,8 +1,12 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import InfoGrid from '@/components/InfoGrid';
+import Timeline from '@/components/Timeline';
 import CFP from '@/components/CFP';
 import Speakers from '@/components/Speakers';
+import Committee from '@/components/Committee';
 import Sponsors from '@/components/Sponsors';
+import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
 import { siteData } from '@/data/siteData';
 
@@ -13,17 +17,23 @@ export default function Home() {
       
       <Hero />
       
-      {/* About Section (Inline for simplicity or extract to component) */}
-      <section id="about" className="py-20 container mx-auto px-4 text-center max-w-3xl">
+      {/* About Section */}
+      <section id="about" className="pt-20 pb-10 container mx-auto px-4 text-center max-w-3xl">
         <h2 className="text-3xl font-bold mb-6 text-wids-dark">{siteData.about.title}</h2>
         <p className="text-lg text-slate-600 leading-relaxed">
           {siteData.about.content}
         </p>
       </section>
 
+      <InfoGrid />
+
+      <Timeline />
+
       <CFP />
       
       <Speakers />
+
+      <Committee />
       
       {/* Agenda Placeholder */}
       <section className="py-20 bg-wids-gold/10 text-center">
@@ -32,6 +42,8 @@ export default function Home() {
       </section>
 
       <Sponsors />
+
+      <Newsletter />
       
       <Footer />
     </main>

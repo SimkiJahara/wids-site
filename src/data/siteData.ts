@@ -30,6 +30,71 @@ export const siteData = {
       href: "#register"
     }
   },
+  timeline: {
+    title: "Important Dates",
+    subtitle: "Mark your calendars",
+    events: [
+      { title: "Abstract Submission", date: "2025-02-15", status: "upcoming" },
+      { title: "Paper Notification", date: "2025-03-10", status: "upcoming" },
+      { title: "Camera Ready Deadline", date: "2025-03-25", status: "upcoming" },
+      { title: "Conference Date", date: "2025-04-10", status: "upcoming" },
+    ]
+  },
+  infoGrid: {
+    cards: [
+      {
+        title: "Call for Papers",
+        description: "Submit your original research. All accepted papers will be indexed in IEEE Xplore.",
+        color: "bg-wids-gold",
+        textColor: "text-wids-dark",
+        link: "#cfp"
+      },
+      {
+        title: "Student Activities",
+        description: "Join the poster session, hackathon, and mentorship circles designed for students.",
+        color: "bg-wids-teal",
+        textColor: "text-white",
+        link: "#"
+      },
+      {
+        title: "Registration",
+        description: "Secure your spot at WiDS Bangladesh 2025. Early bird discounts available soon.",
+        color: "bg-wids-dark",
+        textColor: "text-white",
+        link: "#register"
+      }
+    ]
+  },
+  committee: {
+    title: "Organizing Committee",
+    subtitle: "The team behind WiDS Bangladesh",
+    members: [
+      {
+        name: "Dr. Nova Ahmed",
+        role: "General Chair",
+        affiliation: "North South University",
+        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=NA"
+      },
+      {
+        name: "Dr. Lamia Iftekhar",
+        role: "Program Chair",
+        affiliation: "North South University",
+        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=LI"
+      },
+      {
+        name: "TBA",
+        role: "Publicity Chair",
+        affiliation: "WiDS Ambassador",
+        image: "https://placehold.co/400x400/1A1A1A/FFFFFF?text=TBA"
+      }
+    ]
+  },
+  newsletter: {
+    title: "Stay Updated",
+    description: "Don't miss important announcements, deadline extensions, and speaker reveals.",
+    placeholder: "Enter your email address",
+    buttonText: "Notify Me"
+  },
   hero: {
     title: "WiDS Bangladesh 2025",
     subtitle: "Women in Data Science",
