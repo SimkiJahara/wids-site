@@ -19,8 +19,8 @@ export default function Home() {
       
       {/* About Section */}
       <section id="about" className="pt-20 pb-10 container mx-auto px-4 text-center max-w-3xl">
-        <h2 className="text-3xl font-bold mb-6 text-wids-dark">{siteData.about.title}</h2>
-        <p className="text-lg text-slate-600 leading-relaxed">
+        <h2 className="text-3xl font-bold mb-6 text-white">{siteData.about.title}</h2>
+        <p className="text-lg text-slate-300 leading-relaxed">
           {siteData.about.content}
         </p>
       </section>
@@ -36,8 +36,8 @@ export default function Home() {
       <Committee />
       
       {/* Agenda Placeholder */}
-      <section className="py-20 bg-wids-gold/10 text-center">
-        <h2 className="text-3xl font-bold mb-4">{siteData.agenda.title}</h2>
+      <section className="py-20 bg-wids-surface text-center border-y border-white/5">
+        <h2 className="text-3xl font-bold mb-4 text-white">{siteData.agenda.title}</h2>
         <p className="text-xl text-wids-teal font-semibold">{siteData.agenda.status}</p>
       </section>
 
