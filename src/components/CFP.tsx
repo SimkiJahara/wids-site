@@ -1,7 +1,7 @@
 "use client";
 
 import { siteData } from '@/data/siteData';
-import { FileText, ArrowRight } from 'lucide-react';
+import { FileText, ExternalLink, AlertTriangle } from 'lucide-react';
 import Link from 'next/link';
 import { FadeIn } from './ui/Motion';
 
@@ -15,30 +15,54 @@ export default function CFP() {
           {/* Decorative Gradient */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-wids-teal/10 rounded-full blur-[80px] -mr-16 -mt-16"></div>
           
-          <div className="p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 relative z-10">
-            <div className="flex-1">
-              <div className="flex items-center gap-2 text-wids-teal font-bold mb-2">
-                <FileText className="w-5 h-5" />
-                <span>{cfp.subtitle}</span>
-              </div>
-              <h2 className="text-3xl font-bold mb-4 text-white">{cfp.title}</h2>
-              <p className="text-slate-300 mb-6 leading-relaxed">
-                {cfp.description}
-              </p>
-              <p className="text-sm font-semibold text-wids-dark bg-wids-gold inline-block px-3 py-1 rounded mb-6">
-                {cfp.deadline}
-              </p>
+          <div className="p-8 md:p-12 relative z-10">
+            {/* Header */}
+            <div className="flex items-center gap-2 text-wids-teal font-bold mb-2">
+              <FileText className="w-5 h-5" />
+              <span>{cfp.subtitle}</span>
             </div>
-            
-            <div className="flex-shrink-0">
+            <h2 className="text-3xl font-bold mb-4 text-white">{cfp.title}</h2>
+            <p className="text-slate-300 mb-6 leading-relaxed">
+              {cfp.description}
+            </p>
+
+            {/* Submission Guidelines */}
+            <div className="mb-6">
+              <h3 className="text-lg font-bold text-wids-gold mb-4">Submission Guidelines</h3>
+              <ul className="space-y-3">
+                {cfp.guidelines.map((item: { label: string; text: string }, idx: number) => (
+                  <li key={idx} className="flex gap-3 text-sm">
+                    <span className="text-wids-teal font-bold whitespace-nowrap">• {item.label}:</span>
+                    <span className="text-slate-300">{item.text}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Template Link */}
+            <div className="mb-6">
               <Link 
-                href={cfp.cta.href}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-wids-teal text-white font-bold rounded-lg hover:bg-cyan-400 transition-all shadow-[0_0_20px_rgba(0,181,226,0.3)] hover:shadow-[0_0_30px_rgba(0,181,226,0.5)]"
+                href={cfp.templateLink.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-wids-teal hover:text-cyan-300 font-semibold transition-colors"
               >
-                {cfp.cta.label}
-                <ArrowRight className="w-5 h-5" />
+                <ExternalLink className="w-4 h-4" />
+                {cfp.templateLink.label}
               </Link>
+              <p className="text-slate-500 text-xs mt-1 italic">{cfp.templateNote}</p>
             </div>
+
+            {/* Warning */}
+            <div className="flex items-start gap-3 p-4 bg-wids-gold/10 border border-wids-gold/30 rounded-lg mb-6">
+              <AlertTriangle className="w-5 h-5 text-wids-gold flex-shrink-0 mt-0.5" />
+              <p className="text-sm text-wids-gold">{cfp.warning}</p>
+            </div>
+
+            {/* Deadline Badge */}
+            <p className="text-sm font-semibold text-wids-dark bg-wids-gold inline-block px-3 py-1 rounded">
+              {cfp.deadline}
+            </p>
           </div>
         </FadeIn>
       </div>

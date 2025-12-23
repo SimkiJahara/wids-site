@@ -44,22 +44,22 @@ export const siteData = {
   infoGrid: {
     cards: [
       {
-        title: "Call for Papers",
+        title: "Call for Papers (TBA)",
         description: "Submit your original research. All accepted papers will be indexed in IEEE Xplore.",
         color: "bg-wids-gold",
         textColor: "text-wids-dark",
         link: "#cfp"
       },
       {
-        title: "Student Activities",
-        description: "Join the poster session, hackathon, and mentorship circles designed for students.",
+        title: "Program Detail",
+        description: "Keynote speeches, poster presentations, panel discussions, and networking events.",
         color: "bg-wids-teal",
         textColor: "text-white",
         link: "#"
       },
       {
-        title: "Registration",
-        description: "Secure your spot at WiDS Bangladesh 2025. Early bird discounts available soon.",
+        title: "Registration (TBA)",
+        description: "Secure your spot at WiDS Bangladesh 2026. Early bird discounts available soon.",
         color: "bg-wids-dark",
         textColor: "text-white",
         link: "#register"
@@ -118,14 +118,14 @@ export const siteData = {
         members: [
           {
             name: "Dr. Sumaiya Tabassum Nimi",
-            role: "Assistant Professor, Department of ECE",
-            affiliation: "North South University",
+            role: "Chair | Assistant Professor, Department of ECE",
+            affiliation: "North South University | WiDS Ambassador 2026",
             image: "/Commitee names/2. Technical Program Committee/1. Dr. Sumaiya Tabassum Nimi, Assistant Professor, Department of ECE, NSU.jpg"
           },
           {
             name: "Prof. Dr. Sifat Momen",
-            role: "Professor",
-            affiliation: "University of Liberal Arts Bangladesh",
+            role: "Professor, Department of ECE",
+            affiliation: "North South University",
             image: "/Commitee names/2. Technical Program Committee/2. Prof. Dr. Sifat Momen,.jpg"
           },
           {
@@ -153,9 +153,9 @@ export const siteData = {
             image: "/Commitee names/2. Technical Program Committee/6. Dr. Shafin Rahman , Associate Professor, Department of ECE, NSU.jpg"
           },
           {
-            name: "Novia Nurain",
-            role: "Researcher",
-            affiliation: "Cornell University",
+            name: "Dr. Novia Nurain",
+            role: "Assistant Professor, Department of CSE",
+            affiliation: "BUET",
             image: "/Commitee names/2. Technical Program Committee/7. Novia Nurain.jpeg"
           },
           {
@@ -189,15 +189,15 @@ export const siteData = {
             image: "/Commitee names/3. Steering Committee/2.Prof. Abdur Rob Khan, ProVC (IC) and treasurer.jpg"
           },
           {
-            name: "Prof. Dr. Mofazzal Hossain",
-            role: "Pro-VC (Academic)",
-            affiliation: "North South University",
+            name: "Prof. Dr. Md. Mofazzal Hossain",
+            role: "Pro-VC",
+            affiliation: "SouthEast University",
             image: "/Commitee names/3. Steering Committee/3.Mofazzal.jpg"
           },
           {
             name: "Prof. Khawza Iftekhar Uddin Ahmed",
-            role: "Professor",
-            affiliation: "North South University",
+            role: "Pro-VC",
+            affiliation: "Green University",
             image: "/Commitee names/3. Steering Committee/4.Prof. Khawza Iftekhar Uddin Ahmed,.png"
           },
           {
@@ -246,8 +246,8 @@ export const siteData = {
     location: "Dhaka, Bangladesh",
     status: "March 8, 2026",
     description: "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
-    ctaPrimary: { label: "Registration", href: "#register" },
-    ctaSecondary: { label: "Submit Paper", href: "#cfp" },
+    ctaPrimary: { label: "Registration (TBA)", href: "#register" },
+    ctaSecondary: { label: "Submit Paper (TBA)", href: "#cfp" },
     backgroundImage: "https://placehold.co/1920x1080/1A1A1A/333333?text=Dhaka+Skyline"
   },
   about: {
@@ -257,9 +257,18 @@ export const siteData = {
   cfp: {
     title: "Call for Papers",
     subtitle: "IEEE Xplore Indexed",
-    description: "We invite submissions of original research papers. Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and quality requirements.",
-    deadline: "Submission Deadline: TBA",
-    cta: { label: "Submit via Microsoft CMT", href: "#" }
+    description: "All submissions must be original, unpublished, and not currently under review by other conferences or journals.",
+    guidelines: [
+      { label: "Paper Format", text: "Manuscripts must be prepared using the standard IEEE Conference Proceedings template." },
+      { label: "Page Limit", text: "Papers should be 4 to 6 pages in length, including all figures, tables, and references." },
+      { label: "Layout", text: "Double-column format, single-spaced, 10-point font size." },
+      { label: "File Type", text: "Submissions must be in PDF format." },
+      { label: "Templates", text: "Authors must use the official IEEE templates (Word or LaTeX)." }
+    ],
+    templateLink: { label: "Download IEEE Conference Templates", href: "https://www.ieee.org/conferences/publishing/templates.html" },
+    templateNote: "Note: Select 'Conferences' on the landing page to find the correct Word or LaTeX files.",
+    warning: "Papers exceeding the page limit or deviating from the formatting requirements may be rejected without review.",
+    deadline: "Submission Deadline: TBA"
   },
   speakers: {
     title: "Featured Speakers",
