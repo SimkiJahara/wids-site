@@ -101,7 +101,7 @@ export const siteData = {
     location: "Dhaka, Bangladesh",
     status: "March 8, 2026",
     description: "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
-    ctaPrimary: { label: "Register Interest", href: "#register" },
+    ctaPrimary: { label: "Registration", href: "#register" },
     ctaSecondary: { label: "Submit Paper", href: "#cfp" },
     backgroundImage: "https://placehold.co/1920x1080/1A1A1A/333333?text=Dhaka+Skyline"
   },

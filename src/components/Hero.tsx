@@ -9,7 +9,7 @@ export default function Hero() {
   const { hero } = siteData;
   
   return (
-    <section className="relative min-h-[90vh] flex flex-col overflow-hidden bg-wids-dark text-white">
+    <section className="relative min-h-[calc(100vh-64px)] flex flex-col overflow-hidden bg-wids-dark text-white">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-wids-teal/20 rounded-full blur-[120px] animate-[pulse-glow_4s_infinite]" />
@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
 
       {/* Top Section */}
-      <div className="flex-1 flex items-center justify-center py-12 md:py-16 relative z-10">
+      <div className="flex-1 flex items-center justify-center py-6 md:py-8 relative z-10">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
-        className="relative py-10 md:py-14 px-4 z-10"
+        className="relative py-6 md:py-10 px-4 z-10"
       >
         {/* Top border glow - more visible */}
         <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-wids-teal/70 to-transparent"></div>
@@ -81,14 +81,15 @@ export default function Hero() {
         <div className="absolute inset-0 bg-wids-teal/[0.03]"></div>
         
         <div className="container mx-auto relative">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center leading-relaxed max-w-5xl mx-auto">
-            <span className="text-white">2026 First International </span>
-            <span className="text-wids-gold">Women in Data Science</span>
-            <span className="text-white"> Conference at </span>
-            <span className="text-wids-teal">North South University</span>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-center leading-relaxed max-w-5xl mx-auto">
+            <span className="text-white">The First </span>
+            <span className="text-wids-gold whitespace-nowrap">WiDS NSU</span>
+            <span className="text-white"> International Conference </span>
+            <span className="text-slate-400">(2026)</span>
+            <span className="text-white"> Hosted by </span>
+            <span className="text-wids-teal whitespace-nowrap">North South University</span>
             <span className="text-white"> in Collaboration with </span>
-            <span className="text-wids-gold">Stanford University</span>
-            <span className="text-slate-400"> (WiDS NSU)</span>
+            <span className="text-wids-gold whitespace-nowrap">Stanford University</span>
           </h2>
           
           {/* Date and Location */}
