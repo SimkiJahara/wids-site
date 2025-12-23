@@ -7,6 +7,7 @@ import Scope from '@/components/Scope';
 import Speakers from '@/components/Speakers';
 import Committee from '@/components/Committee';
 import Sponsors from '@/components/Sponsors';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import { siteData } from '@/data/siteData';
 
@@ -44,6 +45,8 @@ export default function Home() {
       </section>
 
       <Sponsors />
+
+      <Contact />
 
       <Footer />
     </main>

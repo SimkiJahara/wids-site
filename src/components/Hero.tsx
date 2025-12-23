@@ -58,7 +58,7 @@ export default function Hero() {
                   Bangladesh @
                 </p>
                 <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-slate-300">
-                  North South University
+                  Department of ECE, North South University
                 </p>
               </div>
             </div>

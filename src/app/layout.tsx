@@ -8,6 +8,18 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: siteData.general.title,
   description: siteData.hero.description,
+  openGraph: {
+    title: siteData.general.title,
+    description: siteData.hero.description,
+    images: ['/logos/widsBD.jpeg'],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteData.general.title,
+    description: siteData.hero.description,
+    images: ['/logos/widsBD.jpeg'],
+  },
 };
 
 export default function RootLayout({

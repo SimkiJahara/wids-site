@@ -44,7 +44,7 @@ export const siteData = {
   infoGrid: {
     cards: [
       {
-        title: "Call for Papers (TBA)",
+        title: "Call for Papers",
         description: "Submit your original research. All accepted papers will be indexed in IEEE Xplore.",
         color: "bg-wids-gold",
         textColor: "text-wids-dark",
@@ -87,6 +87,12 @@ export const siteData = {
             image: "/Commitee names/1. Organizing commitee/2. Prof. Dr. Mohammad Abdul Matin, Chair, Department of ECE, NSU.jpg"
           },
           {
+            name: "Prof. Dr. Rashedur Rahman",
+            role: "Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/1. Organizing commitee/6. Prof. Dr. Rashedur Rahman, Department of ECE, NSU.png"
+          },
+          {
             name: "Prof. Dr. Nova Ahmed",
             role: "Professor, Department of ECE",
             affiliation: "North South University",
@@ -103,12 +109,6 @@ export const siteData = {
             role: "Professor, Department of ECE",
             affiliation: "North South University",
             image: "/Commitee names/1. Organizing commitee/5. Prof. Dr. Abul Lais M S Haque, Department of ECE, NSU.jpg"
-          },
-          {
-            name: "Prof. Dr. Rashedur Rahman",
-            role: "Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/1. Organizing commitee/6. Prof. Dr. Rashedur Rahman, Department of ECE, NSU.png"
           }
         ]
       },
@@ -118,7 +118,7 @@ export const siteData = {
         members: [
           {
             name: "Dr. Sumaiya Tabassum Nimi",
-            role: "Chair | Assistant Professor, Department of ECE",
+            role: "Assistant Professor, Department of ECE",
             affiliation: "North South University | WiDS Ambassador 2026",
             image: "/Commitee names/2. Technical Program Committee/1. Dr. Sumaiya Tabassum Nimi, Assistant Professor, Department of ECE, NSU.jpg"
           },
@@ -276,35 +276,35 @@ export const siteData = {
     list: [
       {
         id: 1,
-        name: "Dr. Sumaiya Tabassum Nimi",
-        role: "Keynote Speaker",
-        org: "North South University",
+        name: "TBA",
+        role: "",
+        org: "",
         image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
-        bio: "Expert in Computational Biology and AI applications in Healthcare."
+        bio: ""
       },
       {
         id: 2,
-        name: "Dr. Elena Rodriguez",
-        role: "AI Research Lead",
-        org: "Tech Global Institute",
+        name: "TBA",
+        role: "",
+        org: "",
         image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
-        bio: "Pioneering work in Natural Language Processing and Ethics."
+        bio: ""
       },
       {
         id: 3,
-        name: "Prof. Sarah Smith",
-        role: "Data Science Chair",
-        org: "University of Innovation",
+        name: "TBA",
+        role: "",
+        org: "",
         image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
-        bio: "Leading research in Big Data Analytics and Visualization."
+        bio: ""
       },
       {
         id: 4,
-        name: "Dr. Yuki Tanaka",
-        role: "Chief Data Officer",
-        org: "Future Systems",
+        name: "TBA",
+        role: "",
+        org: "",
         image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
-        bio: "Transforming industries through predictive modeling."
+        bio: ""
       }
     ]
   },
