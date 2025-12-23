@@ -24,7 +24,7 @@ export default function Committee() {
         </FadeIn>
 
         {/* Committee Sections */}
-        <div className="space-y-20">
+        <div className="space-y-12">
           {committee.sections.map((section, sectionIdx) => (
             <FadeIn key={section.id} delay={sectionIdx * 0.1}>
               {/* Section Header */}

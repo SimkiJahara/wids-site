@@ -1,7 +1,7 @@
 "use client";
 
 import { siteData } from '@/data/siteData';
-import { FileText, ExternalLink, AlertTriangle } from 'lucide-react';
+import { FileText, ExternalLink, AlertTriangle, Download } from 'lucide-react';
 import Link from 'next/link';
 import { FadeIn } from './ui/Motion';
 
@@ -57,6 +57,18 @@ export default function CFP() {
             <div className="flex items-start gap-3 p-4 bg-wids-gold/10 border border-wids-gold/30 rounded-lg mb-6">
               <AlertTriangle className="w-5 h-5 text-wids-gold flex-shrink-0 mt-0.5" />
               <p className="text-sm text-wids-gold">{cfp.warning}</p>
+            </div>
+
+            {/* Download PDF Button */}
+            <div className="mb-6">
+              <a 
+                href="/downloads/WiDS Final.pdf"
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 bg-wids-teal text-white font-bold rounded-lg hover:bg-cyan-400 transition-all shadow-[0_0_20px_rgba(0,181,226,0.3)] hover:shadow-[0_0_30px_rgba(0,181,226,0.5)]"
+              >
+                <Download className="w-5 h-5" />
+                Download Call for Papers (Poster)
+              </a>
             </div>
 
             {/* Deadline Badge */}

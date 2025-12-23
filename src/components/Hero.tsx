@@ -114,7 +114,7 @@ export default function Hero() {
             </Link>
             <Link 
               href={hero.ctaSecondary.href}
-              className="w-full sm:w-auto px-8 py-4 bg-white/5 border border-wids-teal/30 text-white font-bold rounded-lg hover:bg-wids-teal/10 hover:border-wids-teal/50 transition-all backdrop-blur-sm"
+              className="w-full sm:w-auto px-8 py-4 bg-wids-gold text-wids-dark font-bold rounded-lg hover:bg-yellow-400 transition-all transform hover:scale-105 hover:shadow-[0_0_30px_rgba(254,203,0,0.4)]"
             >
               {hero.ctaSecondary.label}
             </Link>

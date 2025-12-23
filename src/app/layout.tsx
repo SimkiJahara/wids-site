@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: siteData.general.title,
   description: siteData.hero.description,
+  icons: {
+    icon: '/logos/widsBD.jpeg',
+    apple: '/logos/widsBD.jpeg',
+  },
   openGraph: {
     title: siteData.general.title,
     description: siteData.hero.description,

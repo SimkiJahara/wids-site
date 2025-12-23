@@ -72,112 +72,10 @@ export const siteData = {
     sections: [
       {
         id: 1,
-        name: "Organizing Committee",
-        members: [
-          {
-            name: "Prof. Dr. Md. Shazzad Hosain",
-            role: "Dean, SEPS",
-            affiliation: "North South University",
-            image: "/Commitee names/1. Organizing commitee/1. Prof. Dr. Md. Shazzad Hosain, Dean, SEPS, NSU.jpg"
-          },
-          {
-            name: "Prof. Dr. Mohammad Abdul Matin",
-            role: "Chair, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/1. Organizing commitee/2. Prof. Dr. Mohammad Abdul Matin, Chair, Department of ECE, NSU.jpg"
-          },
-          {
-            name: "Prof. Dr. Rashedur Rahman",
-            role: "Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/1. Organizing commitee/6. Prof. Dr. Rashedur Rahman, Department of ECE, NSU.png"
-          },
-          {
-            name: "Prof. Dr. Nova Ahmed",
-            role: "Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/1. Organizing commitee/3. Prof. Dr. Nova Ahmed, Department of ECE, NSU.jpg"
-          },
-          {
-            name: "Prof. Dr. Rajesh Palit",
-            role: "Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/1. Organizing commitee/4. Prof. Dr. Rajesh Palit, Department of ECE, NSU .jpg"
-          },
-          {
-            name: "Prof. Dr. Abul Lais M S Haque",
-            role: "Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/1. Organizing commitee/5. Prof. Dr. Abul Lais M S Haque, Department of ECE, NSU.jpg"
-          }
-        ]
-      },
-      {
-        id: 2,
-        name: "Technical Program Committee",
-        members: [
-          {
-            name: "Dr. Sumaiya Tabassum Nimi",
-            role: "Assistant Professor, Department of ECE",
-            affiliation: "North South University | WiDS Ambassador 2026",
-            image: "/Commitee names/2. Technical Program Committee/1. Dr. Sumaiya Tabassum Nimi, Assistant Professor, Department of ECE, NSU.jpg"
-          },
-          {
-            name: "Prof. Dr. Sifat Momen",
-            role: "Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/2. Technical Program Committee/2. Prof. Dr. Sifat Momen,.jpg"
-          },
-          {
-            name: "Prof. Dr. M. Sohel Rahman",
-            role: "Professor, Department of CSE",
-            affiliation: "BUET",
-            image: "/Commitee names/2. Technical Program Committee/3. Prof. Dr. M. Sohel Rahman, Professor, Department of CSE, BUET.jpg"
-          },
-          {
-            name: "Prof. Dr. Swakkhar Shatabda",
-            role: "Professor, Department of CSE",
-            affiliation: "BRAC University",
-            image: "/Commitee names/2. Technical Program Committee/4. Prof. Dr. Swakkhar Shatabda, Professor, Department of CSE, BRAC University.jpg"
-          },
-          {
-            name: "Dr. Nabeel Mohammed",
-            role: "Associate Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/2. Technical Program Committee/5. Dr. Nabeel Mohammed, Associate Professor, Department of ECE, NSU.jpg"
-          },
-          {
-            name: "Dr. Shafin Rahman",
-            role: "Associate Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/2. Technical Program Committee/6. Dr. Shafin Rahman , Associate Professor, Department of ECE, NSU.jpg"
-          },
-          {
-            name: "Dr. Novia Nurain",
-            role: "Assistant Professor, Department of CSE",
-            affiliation: "BUET",
-            image: "/Commitee names/2. Technical Program Committee/7. Novia Nurain.jpeg"
-          },
-          {
-            name: "Dr. Adnan Arefeen",
-            role: "Assistant Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/2. Technical Program Committee/8. Dr. Adnan Arefeen, Assistant Professor, Department of ECE, NSU.png"
-          },
-          {
-            name: "Dr. Nusrat Jahan Lisa",
-            role: "Assistant Professor, Department of ECE",
-            affiliation: "North South University",
-            image: "/Commitee names/2. Technical Program Committee/9. Dr. Nusrat Jahan Lisa, Assistant Professor, Department of ECE, NSU.jpg"
-          }
-        ]
-      },
-      {
-        id: 3,
         name: "Steering Committee",
         members: [
           {
-            name: "Abdul Hannan Chowdhury",
+            name: "Chair: Prof. Abdul Hannan Chowdhury",
             role: "Vice Chancellor",
             affiliation: "North South University",
             image: "/Commitee names/3. Steering Committee/1. Abdul Hannan Chowdhury, VC, North South University.png"
@@ -231,6 +129,108 @@ export const siteData = {
             image: "/Commitee names/3. Steering Committee/9. Dr. Sarah Masud Preum, Assistant Professor, Department of Computer Science, Dartmouth College, USA.jpg"
           }
         ]
+      },
+      {
+        id: 2,
+        name: "Organizing Committee",
+        members: [
+          {
+            name: "Chair: Prof. Dr. Md. Shazzad Hosain",
+            role: "Dean, SEPS",
+            affiliation: "North South University",
+            image: "/Commitee names/1. Organizing commitee/1. Prof. Dr. Md. Shazzad Hosain, Dean, SEPS, NSU.jpg"
+          },
+          {
+            name: "Co-Chair: Prof. Dr. Mohammad Abdul Matin",
+            role: "Chair, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/1. Organizing commitee/2. Prof. Dr. Mohammad Abdul Matin, Chair, Department of ECE, NSU.jpg"
+          },
+          {
+            name: "Prof. Dr. Rashedur Rahman",
+            role: "Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/1. Organizing commitee/6. Prof. Dr. Rashedur Rahman, Department of ECE, NSU.png"
+          },
+          {
+            name: "Prof. Dr. Nova Ahmed",
+            role: "Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/1. Organizing commitee/3. Prof. Dr. Nova Ahmed, Department of ECE, NSU.jpg"
+          },
+          {
+            name: "Prof. Dr. Rajesh Palit",
+            role: "Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/1. Organizing commitee/4. Prof. Dr. Rajesh Palit, Department of ECE, NSU .jpg"
+          },
+          {
+            name: "Prof. Dr. Abul Lais M S Haque",
+            role: "Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/1. Organizing commitee/5. Prof. Dr. Abul Lais M S Haque, Department of ECE, NSU.jpg"
+          }
+        ]
+      },
+      {
+        id: 3,
+        name: "Technical Program Committee (TPC)",
+        members: [
+          {
+            name: "Chair: Dr. Sumaiya Tabassum Nimi",
+            role: "Assistant Professor, Department of ECE",
+            affiliation: "North South University | WiDS Ambassador 2026",
+            image: "/Commitee names/2. Technical Program Committee/1. Dr. Sumaiya Tabassum Nimi, Assistant Professor, Department of ECE, NSU.jpg"
+          },
+          {
+            name: "Prof. Dr. Sifat Momen",
+            role: "Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/2. Technical Program Committee/2. Prof. Dr. Sifat Momen,.jpg"
+          },
+          {
+            name: "Prof. Dr. M. Sohel Rahman",
+            role: "Professor, Department of CSE",
+            affiliation: "BUET",
+            image: "/Commitee names/2. Technical Program Committee/3. Prof. Dr. M. Sohel Rahman, Professor, Department of CSE, BUET.jpg"
+          },
+          {
+            name: "Prof. Dr. Swakkhar Shatabda",
+            role: "Professor, Department of CSE",
+            affiliation: "BRAC University",
+            image: "/Commitee names/2. Technical Program Committee/4. Prof. Dr. Swakkhar Shatabda, Professor, Department of CSE, BRAC University.jpg"
+          },
+          {
+            name: "Dr. Nabeel Mohammed",
+            role: "Associate Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/2. Technical Program Committee/5. Dr. Nabeel Mohammed, Associate Professor, Department of ECE, NSU.jpg"
+          },
+          {
+            name: "Dr. Shafin Rahman",
+            role: "Associate Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/2. Technical Program Committee/6. Dr. Shafin Rahman , Associate Professor, Department of ECE, NSU.jpg"
+          },
+          {
+            name: "Dr. Novia Nurain",
+            role: "Assistant Professor, Department of CSE",
+            affiliation: "BUET",
+            image: "/Commitee names/2. Technical Program Committee/7. Novia Nurain.jpeg"
+          },
+          {
+            name: "Dr. Adnan Arefeen",
+            role: "Assistant Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/2. Technical Program Committee/8. Dr. Adnan Arefeen, Assistant Professor, Department of ECE, NSU.png"
+          },
+          {
+            name: "Dr. Nusrat Jahan Lisa",
+            role: "Assistant Professor, Department of ECE",
+            affiliation: "North South University",
+            image: "/Commitee names/2. Technical Program Committee/9. Dr. Nusrat Jahan Lisa, Assistant Professor, Department of ECE, NSU.jpg"
+          }
+        ]
       }
     ]
   },
@@ -247,7 +247,7 @@ export const siteData = {
     status: "March 8, 2026",
     description: "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
     ctaPrimary: { label: "Registration (TBA)", href: "#register" },
-    ctaSecondary: { label: "Submit Paper (TBA)", href: "#cfp" },
+    ctaSecondary: { label: "Submit Paper", href: "#cfp", highlight: true },
     backgroundImage: "https://placehold.co/1920x1080/1A1A1A/333333?text=Dhaka+Skyline"
   },
   about: {
@@ -268,7 +268,7 @@ export const siteData = {
     templateLink: { label: "Download IEEE Conference Templates", href: "https://www.ieee.org/conferences/publishing/templates.html" },
     templateNote: "Note: Select 'Conferences' on the landing page to find the correct Word or LaTeX files.",
     warning: "Papers exceeding the page limit or deviating from the formatting requirements may be rejected without review.",
-    deadline: "Submission Deadline: TBA"
+    deadline: "Submission Deadline: January 30, 2026"
   },
   speakers: {
     title: "Featured Speakers",
