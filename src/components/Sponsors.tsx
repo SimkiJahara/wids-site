@@ -25,7 +25,7 @@ export default function Sponsors() {
                    <img 
                       src={sponsor.logo} 
                       alt={sponsor.name}
-                      className="max-h-full max-w-full object-contain opacity-70 group-hover:opacity-100 grayscale group-hover:grayscale-0 transition-all duration-300"
+                      className="max-h-full max-w-full object-contain group-hover:opacity-70 group-hover:grayscale transition-all duration-300"
                       onError={(e) => {
                         e.currentTarget.src = "https://placehold.co/200x100/transparent/FFFFFF?text=" + encodeURIComponent(sponsor.name);
                       }}
