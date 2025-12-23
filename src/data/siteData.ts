@@ -34,10 +34,10 @@ export const siteData = {
     title: "Important Dates",
     subtitle: "Mark your calendars for 2026",
     events: [
-      { title: "Abstract Submission", date: "2026-01-15", status: "upcoming" },
-      { title: "Paper Notification", date: "2026-02-20", status: "upcoming" },
-      { title: "Camera Ready Deadline", date: "2026-03-10", status: "upcoming" },
-      { title: "Conference Date", date: "2026-04-12", status: "upcoming" },
+      { title: "Paper Submission Deadline", date: "Jan 30, 2026", status: "upcoming" },
+      { title: "Paper Notification", date: "Feb 20, 2026", status: "upcoming" },
+      { title: "Camera Ready Deadline", date: "Mar 1, 2026", status: "upcoming" },
+      { title: "Program", date: "Mar 8, 2026", status: "upcoming" },
     ]
   },
   infoGrid: {
