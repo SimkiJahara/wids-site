@@ -4,7 +4,7 @@ export const siteData = {
   general: {
     title: "WiDS Bangladesh 2025",
     appName: "WiDS Bangladesh",
-    logo: "/logos/widsBD.png", // Ensure you move your logo here
+    logo: "/logos/widsBD.jpeg", // Ensure you move your logo here
     socials: {
       facebook: "#",
       linkedin: "#",

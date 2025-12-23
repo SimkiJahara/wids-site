@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="relative w-48 h-48 md:w-64 md:h-64">
               <div className="absolute inset-0 bg-wids-gold/20 rounded-full blur-3xl animate-pulse"></div>
               <img 
-                src="/logos/widsBD.png" 
+                src="/logos/widsBD.jpeg" 
                 alt="WiDS Bangladesh Logo" 
                 className="relative w-full h-full object-contain drop-shadow-[0_0_25px_rgba(255,255,255,0.4)]"
               />
