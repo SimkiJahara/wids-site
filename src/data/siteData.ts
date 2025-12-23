@@ -22,6 +22,7 @@ export const siteData = {
     links: [
       { label: "About", href: "#about" },
       { label: "Call for Papers", href: "#cfp" },
+      { label: "Scope", href: "#scope" },
       { label: "Speakers", href: "#speakers" },
       { label: "Sponsors", href: "#sponsors" },
     ],
@@ -167,6 +168,138 @@ export const siteData = {
         logo: "/logos/North_South_University.png", // Ensure you move your logo here
         tier: "Platinum",
         url: "http://www.northsouth.edu"
+      }
+    ]
+  },
+  scope: {
+    title: "Scope of the Conference",
+    subtitle: "We invite submissions on a broad range of topics. The scope includes, but is not limited to, the following tracks:",
+    tracks: [
+      {
+        id: 1,
+        title: "Data Science and Machine Learning Foundations",
+        topics: [
+          "Supervised, unsupervised, and semi-supervised learning",
+          "Mathematical optimization for deep learning",
+          "Statistical learning theory and probabilistic models"
+        ]
+      },
+      {
+        id: 2,
+        title: "Artificial Intelligence for Healthcare, Sustainability, and Social Good",
+        topics: [
+          "Predictive analytics for public health and epidemiology",
+          "AI for disaster management and humanitarian aid",
+          "Sustainable energy optimization and green AI"
+        ]
+      },
+      {
+        id: 3,
+        title: "Responsible, Ethical, and Trustworthy AI",
+        topics: [
+          "Bias detection, fairness, and algorithmic accountability",
+          "Explainable AI (XAI) and model interpretability",
+          "AI governance, policy, and regulation"
+        ]
+      },
+      {
+        id: 4,
+        title: "Big Data Analytics, Data Engineering, and Cloud AI",
+        topics: [
+          "Scalable data pipelines and data warehousing",
+          "Real-time stream processing and analytics",
+          "Serverless machine learning and cloud-native AI architectures"
+        ]
+      },
+      {
+        id: 5,
+        title: "AI in Smart Cities, IoT, and Cyber-Physical Systems",
+        topics: [
+          "Intelligent traffic management and transportation systems",
+          "Sensor data fusion and analysis",
+          "AI for smart grid and energy efficiency"
+        ]
+      },
+      {
+        id: 6,
+        title: "Emerging Trends: Generative AI, Quantum AI, and Advanced AI Systems",
+        topics: [
+          "Large-scale image and text synthesis (GANs, Diffusion Models)",
+          "Quantum machine learning algorithms",
+          "Neuro-symbolic AI and reasoning"
+        ]
+      },
+      {
+        id: 7,
+        title: "Natural Language Processing (NLP) and Large Language Models",
+        topics: [
+          "Bangla language processing (Translation, Sentiment Analysis, OCR)",
+          "LLM fine-tuning, prompting, and application development",
+          "Speech recognition and conversational AI"
+        ]
+      },
+      {
+        id: 8,
+        title: "Computer Vision, Pattern Recognition, and Image Processing",
+        topics: [
+          "Object detection, tracking, and recognition",
+          "Medical image segmentation and analysis",
+          "Video analytics and surveillance systems"
+        ]
+      },
+      {
+        id: 9,
+        title: "Cybersecurity, Privacy-Preserving AI, and Federated Learning",
+        topics: [
+          "Adversarial machine learning and defense mechanisms",
+          "Differential privacy and secure multi-party computation",
+          "Decentralized learning frameworks"
+        ]
+      },
+      {
+        id: 10,
+        title: "Financial Data Science, Fintech, and Business Intelligence",
+        topics: [
+          "Fraud detection and anti-money laundering (AML)",
+          "Algorithmic trading and credit risk modeling",
+          "Customer behavior analysis and churn prediction"
+        ]
+      },
+      {
+        id: 11,
+        title: "AI in Agriculture, Climate Change, and Environmental Science",
+        topics: [
+          "Precision agriculture and crop yield prediction",
+          "Climate modeling and weather forecasting",
+          "Remote sensing and satellite imagery analysis"
+        ]
+      },
+      {
+        id: 12,
+        title: "Bioinformatics, Computational Biology, and Genomics",
+        topics: [
+          "Drug discovery and protein structure prediction",
+          "Genomic data sequencing and analysis",
+          "Biological network modeling"
+        ]
+      },
+      {
+        id: 13,
+        title: "MLOps, Edge Computing, and Scalable AI Systems",
+        topics: [
+          "Model deployment, monitoring, and lifecycle management",
+          "AI specifically optimized for mobile and edge devices",
+          "Automated Machine Learning (AutoML)"
+        ]
+      },
+      {
+        id: 14,
+        title: "Educational Data Mining and Learning Analytics",
+        topics: [
+          "Personalized learning systems and adaptive testing",
+          "Student performance prediction and intervention",
+          "Analysis of massive open online course (MOOC) data"
+        ]
       }
     ]
   },

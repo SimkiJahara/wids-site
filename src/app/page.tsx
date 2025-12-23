@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import InfoGrid from '@/components/InfoGrid';
 import Timeline from '@/components/Timeline';
 import CFP from '@/components/CFP';
+import Scope from '@/components/Scope';
 import Speakers from '@/components/Speakers';
 import Committee from '@/components/Committee';
 import Sponsors from '@/components/Sponsors';
@@ -29,6 +30,8 @@ export default function Home() {
       <Timeline />
 
       <CFP />
+
+      <Scope />
       
       <Speakers />
 
