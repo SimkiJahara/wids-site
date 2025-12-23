@@ -99,7 +99,7 @@ export const siteData = {
     title: "WiDS Bangladesh 2026",
     subtitle: "Women in Data Science",
     location: "Dhaka, Bangladesh",
-    status: "April 12-14, 2026",
+    status: "March 8, 2026",
     description: "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
     ctaPrimary: { label: "Register Interest", href: "#register" },
     ctaSecondary: { label: "Submit Paper", href: "#cfp" },

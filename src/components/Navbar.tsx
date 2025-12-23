@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           {/* Logo Placeholder - replace src with siteData.general.logo when file exists */}
           <div className="font-bold text-2xl tracking-tighter text-white">
-            WiDS <span className="text-wids-teal">BD</span>
+            WiDS
           </div>
         </div>
 
