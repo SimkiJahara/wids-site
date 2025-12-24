@@ -75,13 +75,13 @@ export const siteData = {
         name: "Steering Committee",
         members: [
           {
-            name: "Chair: Prof. Abdul Hannan Chowdhury",
+            name: "Chair: Prof. Dr. Abdul Hannan Chowdhury",
             role: "Vice Chancellor",
             affiliation: "North South University",
             image: "/Commitee names/3. Steering Committee/1. Abdul Hannan Chowdhury, VC, North South University.png"
           },
           {
-            name: "Prof. Abdur Rob Khan",
+            name: "Prof. Dr. Abdur Rob Khan",
             role: "Pro-VC (IC) and Treasurer",
             affiliation: "North South University",
             image: "/Commitee names/3. Steering Committee/2.Prof. Abdur Rob Khan, ProVC (IC) and treasurer.jpg"
@@ -93,7 +93,7 @@ export const siteData = {
             image: "/Commitee names/3. Steering Committee/3.Mofazzal.jpg"
           },
           {
-            name: "Prof. Khawza Iftekhar Uddin Ahmed",
+            name: "Prof. Dr.Khawza Iftekhar Uddin Ahmed",
             role: "Pro-VC",
             affiliation: "Green University",
             image: "/Commitee names/3. Steering Committee/4.Prof. Khawza Iftekhar Uddin Ahmed,.png"
