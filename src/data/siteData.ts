@@ -93,7 +93,7 @@ export const siteData = {
             image: "/Commitee names/3. Steering Committee/3.Mofazzal.jpg"
           },
           {
-            name: "Prof. Dr.Khawza Iftekhar Uddin Ahmed",
+            name: "Prof. Dr. Khawza Iftekhar Uddin Ahmed",
             role: "Pro-VC",
             affiliation: "Green University",
             image: "/Commitee names/3. Steering Committee/4.Prof. Khawza Iftekhar Uddin Ahmed,.png"
