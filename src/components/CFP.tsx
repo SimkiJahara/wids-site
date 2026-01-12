@@ -1,7 +1,7 @@
 "use client";
 
 import { siteData } from '@/data/siteData';
-import { FileText, ExternalLink, AlertTriangle, Download } from 'lucide-react';
+import { FileText, ExternalLink, AlertTriangle, Download, Send } from 'lucide-react';
 import Link from 'next/link';
 import { FadeIn } from './ui/Motion';
 
@@ -57,6 +57,19 @@ export default function CFP() {
             <div className="flex items-start gap-3 p-4 bg-wids-gold/10 border border-wids-gold/30 rounded-lg mb-6">
               <AlertTriangle className="w-5 h-5 text-wids-gold flex-shrink-0 mt-0.5" />
               <p className="text-sm text-wids-gold">{cfp.warning}</p>
+            </div>
+
+            {/* Submit Paper Button */}
+            <div className="mb-6">
+              <a 
+                href="https://cmt3.research.microsoft.com/WiDSNSU2026/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-wids-gold text-wids-dark font-bold rounded-lg hover:bg-yellow-400 transition-all shadow-[0_0_20px_rgba(255,206,86,0.3)] hover:shadow-[0_0_30px_rgba(255,206,86,0.5)]"
+              >
+                <Send className="w-5 h-5" />
+                Submit a Paper
+              </a>
             </div>
 
             {/* Download PDF Button */}
