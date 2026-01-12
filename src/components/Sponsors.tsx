@@ -37,6 +37,14 @@ export default function Sponsors() {
               </a>
             ))}
           </div>
+
+          {/* Technical Infrastructure Support by Microsoft */}
+          <div className="mt-16 pt-12 border-t border-white/10">
+            <h3 className="text-xl font-semibold text-wids-teal mb-4">Technical Infrastructure Support by Microsoft</h3>
+            <p className="text-slate-400 text-sm max-w-4xl mx-auto leading-relaxed">
+              The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+            </p>
+          </div>
         </FadeIn>
       </div>
     </section>

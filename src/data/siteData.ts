@@ -127,6 +127,12 @@ export const siteData = {
             role: "Assistant Professor, Computer Science",
             affiliation: "Dartmouth College, USA",
             image: "/Commitee names/3. Steering Committee/9. Dr. Sarah Masud Preum, Assistant Professor, Department of Computer Science, Dartmouth College, USA.jpg"
+          },
+          {
+            name: "Dr. Maitraye Das",
+            role: "Assistant Professor, Computer Science",
+            affiliation: "Northeastern University, Boston, MA, USA",
+            image: "/Commitee names/3. Steering Committee/10. Maitraye Das.jpg"
           }
         ]
       },
