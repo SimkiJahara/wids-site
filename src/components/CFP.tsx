@@ -1,9 +1,15 @@
 "use client";
 
-import { siteData } from '@/data/siteData';
-import { FileText, ExternalLink, AlertTriangle, Download, Send } from 'lucide-react';
-import Link from 'next/link';
-import { FadeIn } from './ui/Motion';
+import { siteData } from "@/data/siteData";
+import {
+  FileText,
+  ExternalLink,
+  AlertTriangle,
+  Download,
+  Send,
+} from "lucide-react";
+import Link from "next/link";
+import { FadeIn } from "./ui/Motion";
 
 export default function CFP() {
   const { cfp } = siteData;
@@ -14,7 +20,7 @@ export default function CFP() {
         <FadeIn className="max-w-4xl mx-auto glass rounded-2xl shadow-2xl overflow-hidden border border-wids-teal/20 relative">
           {/* Decorative Gradient */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-wids-teal/10 rounded-full blur-[80px] -mr-16 -mt-16"></div>
-          
+
           <div className="p-8 md:p-12 relative z-10">
             {/* Header */}
             <div className="flex items-center gap-2 text-wids-teal font-bold mb-2">
@@ -28,29 +34,21 @@ export default function CFP() {
 
             {/* Submission Guidelines */}
             <div className="mb-6">
-              <h3 className="text-lg font-bold text-wids-gold mb-4">Submission Guidelines</h3>
+              <h3 className="text-lg font-bold text-wids-gold mb-4">
+                Submission Guidelines
+              </h3>
               <ul className="space-y-3">
-                {cfp.guidelines.map((item: { label: string; text: string }, idx: number) => (
-                  <li key={idx} className="flex gap-3 text-sm">
-                    <span className="text-wids-teal font-bold whitespace-nowrap">• {item.label}:</span>
-                    <span className="text-slate-300">{item.text}</span>
-                  </li>
-                ))}
+                {cfp.guidelines.map(
+                  (item: { label: string; text: string }, idx: number) => (
+                    <li key={idx} className="flex gap-3 text-sm">
+                      <span className="text-wids-teal font-bold whitespace-nowrap">
+                        • {item.label}:
+                      </span>
+                      <span className="text-slate-300">{item.text}</span>
+                    </li>
+                  ),
+                )}
               </ul>
-            </div>
-
-            {/* Template Link */}
-            <div className="mb-6">
-              <Link 
-                href={cfp.templateLink.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-wids-teal hover:text-cyan-300 font-semibold transition-colors"
-              >
-                <ExternalLink className="w-4 h-4" />
-                {cfp.templateLink.label}
-              </Link>
-              <p className="text-slate-500 text-xs mt-1 italic">{cfp.templateNote}</p>
             </div>
 
             {/* Warning */}
@@ -61,7 +59,7 @@ export default function CFP() {
 
             {/* Submit Paper Button */}
             <div className="mb-6">
-              <a 
+              <a
                 href="https://cmt3.research.microsoft.com/WiDSNSU2026/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -74,7 +72,7 @@ export default function CFP() {
 
             {/* Download PDF Button */}
             <div className="mb-6">
-              <a 
+              <a
                 href="/downloads/WiDS Final.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-wids-teal text-white font-bold rounded-lg hover:bg-cyan-400 transition-all shadow-[0_0_20px_rgba(0,181,226,0.3)] hover:shadow-[0_0_30px_rgba(0,181,226,0.5)]"
