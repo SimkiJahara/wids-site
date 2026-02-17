@@ -39,12 +39,36 @@ export default function CFP() {
               </h3>
               <ul className="space-y-3">
                 {cfp.guidelines.map(
-                  (item: { label: string; text: string }, idx: number) => (
+                  (
+                    item: {
+                      label: string;
+                      text: string;
+                      linkText?: string;
+                      linkUrl?: string;
+                    },
+                    idx: number,
+                  ) => (
                     <li key={idx} className="flex gap-3 text-sm">
                       <span className="text-wids-teal font-bold whitespace-nowrap">
                         • {item.label}:
                       </span>
-                      <span className="text-slate-300">{item.text}</span>
+                      <span className="text-slate-300">
+                        {item.text}
+                        {item.linkText && item.linkUrl && (
+                          <>
+                            {" "}
+                            <a
+                              href={item.linkUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-wids-teal underline hover:text-cyan-300 transition-colors"
+                            >
+                              {item.linkText}
+                            </a>
+                            .
+                          </>
+                        )}
+                      </span>
                     </li>
                   ),
                 )}

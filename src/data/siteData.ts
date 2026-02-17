@@ -317,7 +317,10 @@ export const siteData = {
       },
       {
         label: "Layout",
-        text: "Double-column format, single-spaced, 10-point font size.",
+        text: "Use the arXiv two-column template. Details and template files are available at",
+        linkText: "arXiv (Two Column)",
+        linkUrl:
+          "https://github.com/myst-templates/arxiv_two_column?tab=readme-ov-file",
       },
       { label: "File Type", text: "Submissions must be in PDF format." },
     ],
