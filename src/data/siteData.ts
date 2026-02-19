@@ -38,6 +38,7 @@ export const siteData = {
       {
         title: "Paper Submission Deadline",
         date: "Feb 20, 2026",
+        newDate: "March 10, 2026",
         status: "upcoming",
       },
       {
@@ -326,7 +327,7 @@ export const siteData = {
     ],
     warning:
       "Papers exceeding the page limit or deviating from the formatting requirements may be rejected without review.",
-    deadline: "Submission Deadline: February 20, 2026",
+    deadline: "Submission Deadline: March 10, 2026",
   },
   speakers: {
     title: "Featured Speakers",
