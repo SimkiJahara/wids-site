@@ -24,7 +24,7 @@ export default function Timeline() {
           <div className="space-y-12">
             {timeline.events.map((event, index) => {
               const isEven = index % 2 === 0;
-              const isPast = new Date(event.date) < new Date();
+              const isPast = new Date(event.newDate ?? event.date) < new Date();
 
               return (
                 <SlideUp
