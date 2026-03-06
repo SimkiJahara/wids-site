@@ -99,7 +99,7 @@ export const siteData = {
           },
           {
             name: "Prof. Nasar U. Ahmed",
-            role: "Pro Vice-Chancellor",
+            role: "Pro-VC",
             affiliation: "North South University",
             image: "/Commitee names/3. Steering Committee/1.2. nasar.jpg",
           },
