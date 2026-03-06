@@ -98,8 +98,14 @@ export const siteData = {
               "/Commitee names/3. Steering Committee/1. Abdul Hannan Chowdhury, VC, North South University.png",
           },
           {
+            name: "Prof. Nasar U. Ahmed",
+            role: "Pro Vice-Chancellor",
+            affiliation: "North South University",
+            image: "/Commitee names/3. Steering Committee/1.2. nasar.jpg",
+          },
+          {
             name: "Prof. Dr. Abdur Rob Khan",
-            role: "Pro-VC (IC) and Treasurer",
+            role: "Treasurer",
             affiliation: "North South University",
             image:
               "/Commitee names/3. Steering Committee/2.Prof. Abdur Rob Khan, ProVC (IC) and treasurer.jpg",
