@@ -27,7 +27,7 @@ export const siteData = {
       { label: "Sponsors", href: "#sponsors" },
     ],
     cta: {
-      label: "Register Now",
+      label: "Registration Fees",
       href: "#register",
     },
   },
@@ -73,9 +73,9 @@ export const siteData = {
         link: "#",
       },
       {
-        title: "Registration (TBA)",
+        title: "Registration Fees",
         description:
-          "Secure your spot at WiDS Bangladesh 2026. Early bird discounts available soon.",
+          "Published rates are now available for local, international, and student participants. Online registration details will be announced soon.",
         color: "bg-wids-dark",
         textColor: "text-white",
         link: "#register",
@@ -298,7 +298,7 @@ export const siteData = {
     status: "July 20, 2026",
     description:
       "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
-    ctaPrimary: { label: "Registration (TBA)", href: "#register" },
+    ctaPrimary: { label: "Registration Fees", href: "#register" },
     ctaSecondary: { label: "Submit Paper", href: "#cfp", highlight: true },
     backgroundImage:
       "https://placehold.co/1920x1080/1A1A1A/333333?text=Dhaka+Skyline",
@@ -377,10 +377,32 @@ export const siteData = {
       },
     ],
   },
-  agenda: {
-    title: "Event Schedule",
-    status: "Schedule Coming Soon",
-    note: "Stay tuned for a full day of keynotes, technical talks, and workshops.",
+  registration: {
+    title: "Registration Fees",
+    subtitle: "Published rates for WiDS Bangladesh 2026",
+    note: "Online registration portal details will be announced soon.",
+    fees: [
+      {
+        tier: "Regular",
+        audience: "Local",
+        amount: "BDT 10,000",
+      },
+      {
+        tier: "Regular",
+        audience: "International",
+        amount: "USD 200",
+      },
+      {
+        tier: "Student",
+        audience: "Local",
+        amount: "BDT 8,000",
+      },
+      {
+        tier: "Student",
+        audience: "International",
+        amount: "USD 150",
+      },
+    ],
   },
   sponsors: {
     title: "Our Sponsors",

@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import InfoGrid from '@/components/InfoGrid';
+import Registration from '@/components/Registration';
 import Timeline from '@/components/Timeline';
 import CFP from '@/components/CFP';
 import Scope from '@/components/Scope';
@@ -37,12 +38,8 @@ export default function Home() {
       <Speakers />
 
       <Committee />
-      
-      {/* Agenda Placeholder */}
-      <section className="py-20 bg-wids-surface text-center border-y border-white/5">
-        <h2 className="text-3xl font-bold mb-4 text-white">{siteData.agenda.title}</h2>
-        <p className="text-xl text-wids-teal font-semibold">{siteData.agenda.status}</p>
-      </section>
+
+      <Registration />
 
       <Sponsors />
 
