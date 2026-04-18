@@ -43,12 +43,12 @@ export const siteData = {
       },
       {
         title: "Paper Notification",
-        date: "April 20, 2026",
+        date: "June 1, 2026",
         status: "upcoming",
       },
       {
         title: "Camera Ready Deadline",
-        date: "May 20, 2026",
+        date: "June 20, 2026",
         status: "upcoming",
       },
       { title: "Conference", date: "July 20, 2026", status: "upcoming" },

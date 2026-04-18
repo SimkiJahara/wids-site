@@ -88,7 +88,7 @@ export default function Hero() {
             <span className="text-slate-400">(2026)</span>
             <span className="text-white"> Hosted by </span>
             <span className="text-wids-teal whitespace-nowrap">North South University</span>
-            <span className="text-white"> in Collaboration with </span>
+            <span className="text-white">, part of WiDS Worldwide initiative, founded at </span>
             <span className="text-wids-gold whitespace-nowrap">Stanford University</span>
           </h2>
           
@@ -124,4 +124,3 @@ export default function Hero() {
     </section>
   );
 }
-
