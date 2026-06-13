@@ -43,7 +43,7 @@ export const siteData = {
       },
       {
         title: "Paper Notification",
-        date: "June 12, 2026",
+        date: "June 20, 2026",
         status: "upcoming",
       },
       {
