@@ -51,7 +51,12 @@ export const siteData = {
         date: "June 20, 2026",
         status: "upcoming",
       },
-      { title: "Conference", date: "July 20, 2026", status: "upcoming" },
+      {
+        title: "Conference",
+        date: "October 1 & 2, 2026",
+        endDate: "October 2, 2026",
+        status: "upcoming",
+      },
     ],
   },
   infoGrid: {
@@ -295,7 +300,7 @@ export const siteData = {
     title: "WiDS Bangladesh 2026",
     subtitle: "Women in Data Science",
     location: "Dhaka, Bangladesh",
-    status: "July 20, 2026",
+    status: "October 1 and 2, 2026",
     description:
       "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
     ctaPrimary: { label: "Registration Fees", href: "#register" },
