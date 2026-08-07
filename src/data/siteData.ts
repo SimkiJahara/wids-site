@@ -499,60 +499,6 @@ export const siteData = {
           "Video analytics and surveillance systems",
         ],
       },
-      {
-        id: 9,
-        title: "Cybersecurity, Privacy-Preserving AI, and Federated Learning",
-        topics: [
-          "Adversarial machine learning and defense mechanisms",
-          "Differential privacy and secure multi-party computation",
-          "Decentralized learning frameworks",
-        ],
-      },
-      {
-        id: 10,
-        title: "Financial Data Science, Fintech, and Business Intelligence",
-        topics: [
-          "Fraud detection and anti-money laundering (AML)",
-          "Algorithmic trading and credit risk modeling",
-          "Customer behavior analysis and churn prediction",
-        ],
-      },
-      {
-        id: 11,
-        title: "AI in Agriculture, Climate Change, and Environmental Science",
-        topics: [
-          "Precision agriculture and crop yield prediction",
-          "Climate modeling and weather forecasting",
-          "Remote sensing and satellite imagery analysis",
-        ],
-      },
-      {
-        id: 12,
-        title: "Bioinformatics, Computational Biology, and Genomics",
-        topics: [
-          "Drug discovery and protein structure prediction",
-          "Genomic data sequencing and analysis",
-          "Biological network modeling",
-        ],
-      },
-      {
-        id: 13,
-        title: "MLOps, Edge Computing, and Scalable AI Systems",
-        topics: [
-          "Model deployment, monitoring, and lifecycle management",
-          "AI specifically optimized for mobile and edge devices",
-          "Automated Machine Learning (AutoML)",
-        ],
-      },
-      {
-        id: 14,
-        title: "Educational Data Mining and Learning Analytics",
-        topics: [
-          "Personalized learning systems and adaptive testing",
-          "Student performance prediction and intervention",
-          "Analysis of massive open online course (MOOC) data",
-        ],
-      },
     ],
   },
   footer: {
