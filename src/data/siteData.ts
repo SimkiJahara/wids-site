@@ -55,6 +55,7 @@ export const siteData = {
       {
         title: "Conference",
         date: "November 12, 2026",
+        endDate: "November 12, 2026",
         status: "upcoming",
       },
     ],
