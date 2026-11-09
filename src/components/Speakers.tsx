@@ -17,7 +17,7 @@ export default function Speakers() {
           <p className="text-slate-400 text-lg">{speakers.subtitle}</p>
         </FadeIn>
 
-        <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
           {speakers.list.map((speaker) => (
             <StaggerItem key={speaker.id} className="group">
               <div className="relative overflow-hidden rounded-xl mb-4 aspect-square bg-white/5 border border-white/10 group-hover:border-wids-gold/50 transition-colors">

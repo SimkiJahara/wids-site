@@ -6,6 +6,7 @@ import Timeline from '@/components/Timeline';
 import CFP from '@/components/CFP';
 import Scope from '@/components/Scope';
 import Speakers from '@/components/Speakers';
+import Schedule from '@/components/Schedule';
 import Committee from '@/components/Committee';
 import Sponsors from '@/components/Sponsors';
 import Contact from '@/components/Contact';
@@ -36,6 +37,8 @@ export default function Home() {
       <Scope />
       
       <Speakers />
+
+      <Schedule />
 
       <Committee />
 
