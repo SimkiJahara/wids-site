@@ -2,7 +2,7 @@ import { Calendar, MapPin, FileText, Users, Mic } from "lucide-react";
 
 export const siteData = {
   general: {
-    title: "WiDS Bangladesh 2025",
+    title: "WiDS Bangladesh 2026",
     appName: "WiDS Bangladesh",
     logo: "/logos/widsBD.jpeg", // Ensure you move your logo here
     socials: {
@@ -24,6 +24,7 @@ export const siteData = {
       { label: "Call for Papers", href: "#cfp" },
       { label: "Scope", href: "#scope" },
       { label: "Speakers", href: "#speakers" },
+      { label: "Schedule", href: "#schedule" },
       { label: "Sponsors", href: "#sponsors" },
     ],
     cta: {
@@ -53,8 +54,7 @@ export const siteData = {
       },
       {
         title: "Conference",
-        date: "October 1 & 2, 2026",
-        endDate: "October 2, 2026",
+        date: "November 12, 2026",
         status: "upcoming",
       },
     ],
@@ -299,8 +299,8 @@ export const siteData = {
   hero: {
     title: "WiDS Bangladesh 2026",
     subtitle: "Women in Data Science",
-    location: "Dhaka, Bangladesh",
-    status: "October 1 and 2, 2026",
+    location: "North South University, Dhaka, Bangladesh",
+    status: "November 12, 2026",
     description:
       "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
     ctaPrimary: { label: "Registration Fees", href: "#register" },
@@ -346,42 +346,43 @@ export const siteData = {
     list: [
       {
         id: 1,
-        name: "TBA",
-        role: "",
-        org: "",
+        name: "Dr. Novia Nurain",
+        role: "Assistant Professor, Department of CSE",
+        org: "BUET",
         image:
-          "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
+          "/Commitee names/2. Technical Program Committee/7. Novia Nurain.jpeg",
         bio: "",
       },
       {
         id: 2,
-        name: "TBA",
-        role: "",
-        org: "",
+        name: "Dr. M. Sohel Rahman",
+        role: "Professor, Department of CSE",
+        org: "BUET",
         image:
-          "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
-        bio: "",
-      },
-      {
-        id: 3,
-        name: "TBA",
-        role: "",
-        org: "",
-        image:
-          "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
-        bio: "",
-      },
-      {
-        id: 4,
-        name: "TBA",
-        role: "",
-        org: "",
-        image:
-          "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=800&q=80",
+          "/Commitee names/2. Technical Program Committee/3. Prof. Dr. M. Sohel Rahman, Professor, Department of CSE, BUET.jpg",
         bio: "",
       },
     ],
   },
+
+  schedule: {
+    title: "Conference Schedule",
+    subtitle: "November 12, 2026 · North South University, Dhaka",
+    items: [
+      { time: "10:30 AM – 11:00 AM", title: "Welcome Session", sub: "" },
+      { time: "11:00 AM – 12:00 PM", title: "Research Paper Presentation – Session 1", sub: "" },
+      { time: "12:00 PM – 12:30 PM", title: "Invited Talk by Dr. Novia Nurain", sub: "Assistant Professor, Department of CSE, BUET" },
+      { time: "12:30 PM – 12:45 PM", title: "Q&A Session", sub: "" },
+      { time: "12:45 PM – 2:00 PM", title: "Lunch and Prayer Break", sub: "" },
+      { time: "2:00 PM – 2:30 PM", title: "Invited Talk by Dr. M. Sohel Rahman", sub: "Professor, Department of CSE, BUET" },
+      { time: "2:30 PM – 2:45 PM", title: "Q&A Session", sub: "" },
+      { time: "2:45 PM – 3:00 PM", title: "Break", sub: "" },
+      { time: "3:00 PM – 4:00 PM", title: "Research Paper Presentation – Session 2", sub: "" },
+      { time: "4:00 PM – 5:00 PM", title: "Research Student Competition", sub: "" },
+      { time: "5:00 PM – 5:30 PM", title: "Closing Session", sub: "" },
+    ],
+  },
+
   registration: {
     title: "Registration Fees",
     subtitle: "Published rates for WiDS Bangladesh 2026",
@@ -502,7 +503,7 @@ export const siteData = {
     ],
   },
   footer: {
-    copyright: "© 2025 WiDS Bangladesh. All Rights Reserved.",
+    copyright: "© 2026 WiDS Bangladesh. All Rights Reserved.",
     disclaimer:
       "WiDS Bangladesh is an independent event organized by WiDS Ambassadors.",
   },
