@@ -21,18 +21,19 @@ export default function Speakers() {
           {speakers.list.map((speaker) => (
             <StaggerItem key={speaker.id} className="group">
               <div className="relative overflow-hidden rounded-xl mb-4 aspect-square bg-white/5 border border-white/10 group-hover:border-wids-gold/50 transition-colors">
-                <img 
-                  src={speaker.image} 
+                {/* Colourful by default, black & white on hover */}
+                <img
+                  src={speaker.image}
                   alt={speaker.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                  className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale-0 group-hover:grayscale"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                  <p className="text-white text-xs">{speaker.bio}</p>
-                </div>
               </div>
               <h3 className="text-xl font-bold text-white group-hover:text-wids-gold transition-colors">{speaker.name}</h3>
               <p className="text-wids-teal font-medium text-sm mb-1">{speaker.role}</p>
               <p className="text-slate-500 text-sm">{speaker.org}</p>
+              {speaker.bio && (
+                <p className="text-slate-400 text-sm leading-relaxed mt-3">{speaker.bio}</p>
+              )}
             </StaggerItem>
           ))}
         </StaggerContainer>

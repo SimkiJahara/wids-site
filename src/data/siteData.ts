@@ -54,8 +54,8 @@ export const siteData = {
       },
       {
         title: "Conference",
-        date: "November 12, 2026",
-        endDate: "November 12, 2026",
+        date: "December 3, 2026",
+        endDate: "December 3, 2026",
         status: "upcoming",
       },
     ],
@@ -267,7 +267,7 @@ export const siteData = {
           },
           {
             name: "Dr. Novia Nurain",
-            role: "Assistant Professor, Department of CSE",
+            role: "Associate Professor, Department of CSE",
             affiliation: "BUET",
             image:
               "/Commitee names/2. Technical Program Committee/7. Novia Nurain.jpeg",
@@ -301,7 +301,7 @@ export const siteData = {
     title: "WiDS Bangladesh 2026",
     subtitle: "Women in Data Science",
     location: "North South University, Dhaka, Bangladesh",
-    status: "November 12, 2026",
+    status: "December 3, 2026",
     description:
       "Inspiring and educating data scientists worldwide, regardless of gender, and supporting women in the field.",
     ctaPrimary: { label: "Registration Fees", href: "#register" },
@@ -348,11 +348,12 @@ export const siteData = {
       {
         id: 1,
         name: "Dr. Novia Nurain",
-        role: "Assistant Professor, Department of CSE",
+        role: "Associate Professor, Department of CSE",
         org: "BUET",
         image:
           "/Commitee names/2. Technical Program Committee/7. Novia Nurain.jpeg",
-        bio: "",
+        bio:
+          "Dr. Novia Nurain is an Associate Professor in the Department of CSE at BUET. As an HCI researcher, she studies how emerging Generative AI technologies can benefit marginalized communities through equitable information access, support for self-care, and reciprocal social support, co-creating AI experiences together with those communities. She holds a PhD and MS in Informatics from Indiana University Bloomington and a PhD, M.Sc. and B.Sc. in CSE from BUET, and was a Postdoctoral Researcher at the University of Michigan. Her work has received Best Paper and Honorable Mention awards at ACM CHI.",
       },
       {
         id: 2,
@@ -361,18 +362,19 @@ export const siteData = {
         org: "BUET",
         image:
           "/Commitee names/2. Technical Program Committee/3. Prof. Dr. M. Sohel Rahman, Professor, Department of CSE, BUET.jpg",
-        bio: "",
+        bio:
+          "Dr. M. Sohel Rahman is a Professor in the Department of CSE at BUET. He received his PhD from King's College London, where he later worked as a Visiting Research Fellow (2008–2011) and a Visiting Senior Research Fellow (2014–15). A Senior Member of both IEEE and ACM, he has published 80 peer-reviewed international journal papers, with research interests in algorithms, stringology, metaheuristics, computational biology and bioinformatics. He is a recipient of the Bangladesh Academy of Sciences Gold Medal and the UGC Award, and serves as an Academic Editor of PLOS One and Associate Editor of BMC Research Notes.",
       },
     ],
   },
 
   schedule: {
     title: "Conference Schedule",
-    subtitle: "November 12, 2026 · North South University, Dhaka",
+    subtitle: "December 3, 2026 · North South University, Dhaka",
     items: [
       { time: "10:30 AM – 11:00 AM", title: "Welcome Session", sub: "" },
       { time: "11:00 AM – 12:00 PM", title: "Research Paper Presentation – Session 1", sub: "" },
-      { time: "12:00 PM – 12:30 PM", title: "Invited Talk by Dr. Novia Nurain", sub: "Assistant Professor, Department of CSE, BUET" },
+      { time: "12:00 PM – 12:30 PM", title: "Invited Talk by Dr. Novia Nurain", sub: "Associate Professor, Department of CSE, BUET" },
       { time: "12:30 PM – 12:45 PM", title: "Q&A Session", sub: "" },
       { time: "12:45 PM – 2:00 PM", title: "Lunch and Prayer Break", sub: "" },
       { time: "2:00 PM – 2:30 PM", title: "Invited Talk by Dr. M. Sohel Rahman", sub: "Professor, Department of CSE, BUET" },
